@@ -28,6 +28,6 @@ def test_busca_binaria():
     assert busca_binaria([1,2,3,4,5],5) == 4
     assert busca_binaria([1,2,3,4,5],6) == None
     assert busca_binaria(['a','b','c','d','e'],'c') == 2
-    print("✅ test_selection_sort: Todos os testes passaram!")
+    print("✅ busca_binaria: Todos os testes passaram!")
 
 test_busca_binaria()
